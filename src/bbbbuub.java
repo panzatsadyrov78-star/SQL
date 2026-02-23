@@ -2,12 +2,24 @@ public class bbbbuub {
     public int price;
     public String uhhyyhh;
     public Toys toys;
+    public int size;
 
+    public bbbbuub(int size) {
+        this.size = size;
+    }
 
     public bbbbuub(int price, String uhhyyhh, Toys toys) {
         this.price = price;
         this.uhhyyhh = uhhyyhh;
         this.toys = toys;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
     }
 
     public int getPrice() {
